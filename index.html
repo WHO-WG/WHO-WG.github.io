@@ -6,18 +6,22 @@ title: WHO-WG - Unofficial home for OWL and RDF specification correction and enh
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });       </script>
 
-<div Checking to see if the site is 
+
+<div><h2>Mathjax check</h2>
+Checking to see if the site is 
 <ul>
 <li><em>fixed</em> and 
 <li><strong>functional</strong>
+</ul>
 $$
 Y = \lambda f.(\lambda x. f(x x))(\lambda x.f(x x))
 $$
 </div>
-<div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+
+<div><h2>Identity management</h2>
+The following lines should handle identity management  
+$$
+\forall x. x = x\\
+\forall x,y. x = y \rightarrow \forall \Phi. \Phi(x) \leftrightarrow \Phi(y)
+$$
 </div>
