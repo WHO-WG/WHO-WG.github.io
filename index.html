@@ -2,13 +2,25 @@
 layout: default
 title: WHO-WG - Unofficial home for OWL and RDF specification correction and enhancement
 ---
+
+<div><h2>Mathjax check</h2>
+Checking to see if the site is 
+<ul>
+<li>fixed
+<li>functional
+</ul>
 $$
 Y = \lambda f.(\lambda x. f(x x))(\lambda x.f(x x))
 $$
-<div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+</div>
+
+<div><h2>Identity management</h2>
+The following lines should handle identity management  
+\begin{align}
+\forall x. x = x && \text{reflexivity}\\
+\forall x,y,z. (x = y \wedge y = z \rightarrow x = z) && \text{transitivity}\\
+\forall x,y.(x = y \rightarrow y = x) && \text{symmetry}\\ 
+\forall x,y.(x = y \rightarrow \forall \Phi. (\Phi(x) \leftrightarrow \Phi(y))) && \text{indiscernibility of identicals}
+\end{align}
+
 </div>
