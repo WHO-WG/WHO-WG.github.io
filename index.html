@@ -21,10 +21,10 @@ $$
 <div><h2>Identity management</h2>
 The following lines should handle identity management  
 \begin{align}
-\forall x. x = x\\
-\forall x,y,z (x = y \wedge y = z \rightarrow x = z \\
-\forall x,y (x = y \rightarrow y = x) \\ 
-\forall x,y.(x = y \rightarrow \forall \Phi. (\Phi(x) \leftrightarrow \Phi(y)))
+\forall x. x = x & \text{reflexivity}\\
+\forall x,y,z. (x = y \wedge y = z \rightarrow x = z) & \text{transitivity}\\
+\forall x,y.(x = y \rightarrow y = x) & \text{symmetry}\\ 
+\forall x,y.(x = y \rightarrow \forall \Phi. (\Phi(x) \leftrightarrow \Phi(y))) & \text{indiscernibility of identicals}
 \end{align}
 
 </div>
