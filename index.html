@@ -15,12 +15,17 @@ $$
 </div>
 
 <div><h2>Identity management</h2>
-The following lines should handle identity management  
+The following lines should handle identity management:
 \begin{align}
 \forall x. x = x && \text{reflexivity}\\
 \forall x,y,z. (x = y \wedge y = z \rightarrow x = z) && \text{transitivity}\\
 \forall x,y.(x = y \rightarrow y = x) && \text{symmetry}\\ 
 \forall x,y.(x = y \rightarrow \forall \Phi. (\Phi(x) \leftrightarrow \Phi(y))) && \text{indiscernibility of identicals}
+\forall x,y.( \forall \Phi. (\Phi(x) \leftrightarrow \Phi(y))  \rightarrow x = y) && \text{identity of indiscernibles}
 \end{align}
-
+</div>
+<div><h2>Emergency Unicorns</h2>
+$$
+ \text{\sf =1}\text{\sf hasPart}.\text{\sf Horn} \sqcap \text{\sf Horse}
+$$
 </div>
