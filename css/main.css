@@ -67,11 +67,13 @@ a:visited { color: #a0a; }
   font-weight: bold;
   text-decoration: none;
 }
-
+.header {
+  vertical-align: middle;
+  font-size: 150%;
+}
 .title {
   display: inline-block;
   margin-bottom: 2em;
-  vertical-align: middle
 }
 
 .title a {
