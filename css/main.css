@@ -26,6 +26,7 @@ h1 {
     margin-bottom: 1em;
     font-size: 130%; }
 p { margin: 1em 0; }
+ul { margin-left: 2em;}
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
