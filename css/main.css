@@ -58,8 +58,8 @@ a:visited { color: #a0a; }
   vertical-align: middle;
   text-align: center;
   display: flex;
-  margin-left: 1em;
-  margin-bottom: 2em;
+  padding-left: 1em;
+  //margin-bottom: 2em;
 }
 
 .title a {
