@@ -86,6 +86,9 @@ group exists, the WHO-WG stands watch to guard the realms of OWLs.
  </ul>
 </ul>
 <h1>Initial Issues </h1>
+There are several high priority issues affecting OWL 2, particularly
+  those related to the RDF 1.1 elimination of plain literals and their
+  replacement with simple literals.
 <h2>OWL 2.0.1</h2>
 <ul>
   <li> Merge in errata.
@@ -93,18 +96,34 @@ group exists, the WHO-WG stands watch to guard the realms of OWLs.
   DisjointUnionOf problem)
   <li> Known errors in OWL 2.0 AS/FSS spec, Primer.
   <li> Note problem caused by removal of plain literals from
-  RDF. Describe how to rdf:langString can be handled
+  RDF. Describe how rdf:langString can be translated to OWL 2.0
+  compatible constructs.
   transparently. Clarify whether or not xsd:string may be removed when
   serializing to non-rdf datatypes.
 </ul>
-<h2>RDF 1.1</h2>
+<h2>RDF 1.1.1</h2>
 <ul>
-  <li> Add rdf:langRange facet for rdf:langString?
+  <li> Define rdf:langRange facet for rdf:langString?
   <li> Add text  to PlainLiteral spec noting that plain literal
   concept is obsolete.
-  <li> Correct langRange example in PlainLiteral
+  <li> Add text deprecating rdf:PlainLiteral?
+  <li> Correct extended matching examples in rdf:PlainLiteral.
 </ul>
-
+<h2>SPARQL 1.1.1</h2>
+<ul>
+  <li> Update SPARQL Entailment Regimes document to RDF 1.1 .
+</ul>
+<h1>Future Work</h1>
+<ul>
+  <li> Ontology of OWL2 reasoner features and extensions to
+  allow selection of reasoners at a finer level than OWL 2 Profile
+  (e.g. datatypes support; SWRL support; CWA support; axiom combos not
+  supported; aproximate reasoning; probalistic reasoning etc.)?
+  <li> Reviewing/Revising Integrity Constraint Verification specification for
+  possible advancement?
+  <li> Support for literals with higher arities (e.g. intervals;
+  numbers with units; strings with language tags). 
+</ul>
 <div><h1>Mathjax check</h1>
 Checking to see if the site is 
 <ul>
