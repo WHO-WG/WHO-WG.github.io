@@ -27,7 +27,9 @@ margin-bottom: 0.5em;
 border-top-style: ridge;}
 
 h1 { 
-    font-size: 150%; }
+    font-size: 150%;
+    border-bottom-style:ridge;
+}
 h2 {
     font-size: 120%;
 }
