@@ -28,6 +28,7 @@ border-top-style: ridge;}
 
 h1 { 
     font-size: 150%;
+    padding-bottom:0.5em;
     border-bottom-style:ridge;
 }
 h2 {
