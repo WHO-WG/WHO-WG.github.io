@@ -24,7 +24,9 @@ h1, h2, h3, h4, h5, h6 {
 margin-top: 0.5em; 
 padding-top: 0.5em;
 margin-bottom: 0.5em;
-border-top-style: ridge;}
+// border-top-style: ridge;
+  
+}
 
 h1 { 
     font-size: 170%;
